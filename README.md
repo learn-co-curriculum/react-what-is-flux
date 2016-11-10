@@ -1,7 +1,7 @@
 What the Flux?
 ==============
 
-In this lesson, we will learn learn about the Flux architecture for building web
+In this lesson, we will learn about the Flux architecture for building web
 applications. By the end of the lesson you will be able to:
 
 * Describe the basics of a flux application.
@@ -27,7 +27,7 @@ entire application.
 To understand what Flux is take a look at the animation shown above. It's a beautiful
 system to look at, but it's very (very!) complex. If we were asked to look at this
 animation and then reproduce its structure from memory, chances are that 99%
-of would fail at the task. You simply can't keep the "idea" of this architecture
+of us would fail at the task. You simply can't keep the "idea" of this architecture
 in your head.
 
 By contrast, Flux is a system _architecture_ that strives for simplicity. The idea
@@ -44,8 +44,8 @@ way data flows through this system.
 Take a look at the arrows. Notice that they are all moving in the same direction.
 What we are seeing here is nothing less than the core idea of the Flux architecture:
 data and events in Flux only ever move in one direction. When an action is
-triggered its effects are propagated through the dispatcher, to the store, and
-finally to the views.
+triggered, by a user, its effects are propagated through the dispatcher, to the store, and
+finally back to the views.
 
 Did you get that? No...but really did you? Do you see how crazy simple that is?
 Let's put it another way: the only way any action will ever move through a Flux
